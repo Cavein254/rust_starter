@@ -13,7 +13,7 @@ fn main() {
     */
     //single line comment
 
-    let num2:i32 = 100;
-    let mut num2:i64 = 3000;
+    let mut num2:i32 = 100;
+    num2 = 3000;
     println!("the changed values is {}", num2)
 }
