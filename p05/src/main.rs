@@ -10,8 +10,12 @@ fn main() {
 //     println!("The number is {}", num);
 //     num +=1;
 //    }
-let a:i32 = 11;
-let b:i32 = 30;
-let c:i32 = 10;
-println!("The total hours is {}", a*b*c);
+
+    let x = 0..140;
+    for i in x {
+        if (i % 3 == 0) && (i % 6 == 0) && (i % 9 ==0){
+            println!(" {} - ", i);
+        }
+    }
+
 }
